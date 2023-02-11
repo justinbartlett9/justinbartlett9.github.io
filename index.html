@@ -4,9 +4,104 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>my site</title>
+    <title>my computer</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h5>hello world</h5>
+    <div class="outer-frame raised">
+      <div class="title-bar">
+        <img
+          class="title-icon"
+          src="https://win98icons.alexmeub.com/icons/png/computer_explorer-0.png"
+          alt="computer icon"
+        />
+        windows94
+        <div class="button-container">
+          <div class="window-button raised">
+            <svg id="minimize-icon" width="6" height="2" viewBox="0 0 6 2">
+              <rect width="6" height="2" fill="black" />
+            </svg>
+          </div>
+          <div class="window-button raised">
+            <svg width="9" height="9" viewBox="0 0 9 9">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M9 0H0V2V8V9H1H8H9V8V2V0ZM8 2H1V8H8V2Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+          <div class="window-button raised">
+            <svg width="8" height="7" viewBox="0 0 8 7">
+              <path
+                fill-rule="evenodd"
+                clip-rule="evenodd"
+                d="M0 0H1H2V1H3V2H4H5V1H6V0H7H8V1H7V2H6V3H5V4H6V5H7V6H8V7H7H6V6H5V5H4H3V6H2V7H1H0V6H1V5H2V4H3V3H2V2H1V1H0V0Z"
+                fill="black"
+              />
+            </svg>
+          </div>
+        </div>
+      </div>
+      <div class="tool-bar">
+        <div class="tool-button">File</div>
+        <div class="tool-button">Edit</div>
+        <div class="tool-button">View</div>
+        <div class="tool-button">Help</div>
+      </div>
+      <div class="inner-window sunken">
+        <div class="row">
+          <div class="app-icon">
+            <img
+              src="https://win98icons.alexmeub.com/icons/png/calendar-0.png"
+              alt="calendar"
+            />
+            <div>Calendar</div>
+          </div>
+          <div class="app-icon">
+            <img
+              src="https://win98icons.alexmeub.com/icons/png/display_properties-5.png"
+              alt="display settings"
+            />
+            <div>Display</div>
+          </div>
+          <div class="app-icon">
+            <img
+              src="https://win98icons.alexmeub.com/icons/png/entire_network_globe-0.png"
+              alt="globe"
+            />
+            <div>Atlas</div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="app-icon">
+            <img
+              src="https://win98icons.alexmeub.com/icons/png/game_solitaire-0.png"
+              alt="freecell"
+            />
+            <div>FreeCell</div>
+          </div>
+          <div class="app-icon">
+            <img
+              src="https://win98icons.alexmeub.com/icons/png/directory_network_conn-4.png"
+              alt="network"
+            />
+            <div>Network</div>
+          </div>
+          <div class="app-icon">
+            <img
+              src="https://win98icons.alexmeub.com/icons/png/help_book_cool-4.png"
+              alt="help"
+            />
+            <div>Help</div>
+          </div>
+        </div>
+      </div>
+      <div class="context-bar">
+        <div class="context-cell sunken"></div>
+        <div class="context-cell sunken"></div>
+      </div>
+    </div>
   </body>
 </html>
